@@ -10,7 +10,7 @@ mongoose.connect(process.env.MONGODB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
-//////////////////////////
+/////////////////////////
 app.use(express.json())
 
 app.post('/team', async (req, res) => {
